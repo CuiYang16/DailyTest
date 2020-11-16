@@ -42,5 +42,8 @@ print(type(b'AAA'))  # <class 'bytes'>
 1. 不不包含结束位置下标对应的数据， 正负整数均可；
 2. 步⻓长是选取间隔，正负整数均可，默认步⻓长为1。
 '''
-s = 'abcdefghijklmnopqrstuvwxyz'
+s = 'bcdefghaijklmanopqrastuvwxyz'
 print(s[1: 5:4])
+
+# 分割字符串
+print(s.split('a', 3))  # ['bcdefgh', 'ijklm', 'nopqr', 'stuvwxyz']

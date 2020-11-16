@@ -47,3 +47,9 @@ print(s[1: 5:4])
 
 # 分割字符串
 print(s.split('a', 3))  # ['bcdefgh', 'ijklm', 'nopqr', 'stuvwxyz']
+
+# 填充指定字符至指定长度
+s1 = 'hello'
+print(s1.ljust(10, '-'))
+print(s1.rjust(10, '-'))
+print(s1.center(11, '-'))

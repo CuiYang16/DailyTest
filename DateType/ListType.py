@@ -23,3 +23,6 @@ print(firstList)
 
 # 删除指定下标的数据(默认为最后⼀一个)，并返回该数据。
 print(firstList.pop(4))
+
+# 复制3次
+print(firstList*3)

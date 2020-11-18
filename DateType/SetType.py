@@ -18,3 +18,8 @@ print(type(s5)) # dict
 # 删除指定元素
 s2.discard(10)
 print(s2)
+
+# 不可放入可变类型，例如：list, dist, set
+# 以下会报错
+s2.add(['100'])
+print(s2)

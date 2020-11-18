@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+""" a test module """
+
+__author__ = 'Michael Liao'
+
+
 def area(w, h):
     return float(w) * float(h), w
 
